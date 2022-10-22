@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* ==== MAIN STYLES ==== */
+
+
+body {
+    background-color: #000066;
+}
+h1 {
+    color:        red;
+    text-align:   center;
+    font-family:  'Playfair Display', serif;
+    font-size:    3rem;
+}
+h4 {
+    color:       #ffcc00;
+    text-align:  center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:   1.5rem;
+}
+p {
+    font-family:   'Open Sans Condensed', sans-serif;
+    color:         #ffcc00;
+    font-size:     1.25rem;
+    margin-bottom: 1%;
+    padding:       1% 2%;
+}
+ul, li {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:        #ffcc00;
+}
+dl {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:        #ffcc00;
+    font-size:    1.35rem;
+    margin:       1.15rem;
+}
+
+
+/* ==== FANS & STADIONS PICTURES POSITIONING  ==== */
+
+
+.pictures {
+    width:           97vw;
+    display:         flex;
+    justify-content: space-evenly;
+}
+.case {
+    width: 35%;
+}
+
+
+/* ==== TABLES STYLES ==== */
+
+
+table {
+    width:           55.5%;
+    margin:          25px auto;
+    border-collapse: collapse;
+}
+table, th, td, caption {
+    border: 1px solid white;
+}
+th {
+    background-color: darkgrey;
+}
+td {
+    text-align:  center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:       #ffcc00;
+}
+caption {
+    text-transform: uppercase;
+    font-size:      1rem;
+    font-weight:    bold;
+    font-family:    'Open Sans Condensed', sans-serif;
+    color:          #ffcc00;
+}
+
+/* ==== HEADER STYLES ==== */
+
+header {
+  text-decoration: none;
+}
+
+.button {
+  width:            9.94rem;
+  font-size:        1.5rem;
+  text-align:       center;
+  background-color: #000066;
+  color:            #ffcc00;
+  font-family:      'Open Sans Condensed', sans-serif;
+  margin:           2px;
+  border-radius:    25px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    transition:    color .15s ease-in-out;
+    border-bottom: 2px solid red;
+}
+
+@media (min-width: 600px) {
+    .button {
+      display: inline-block;
+      border-bottom: none;
+  }
+}
+
+/* ==== SCUTCHEON STYLES ==== */
+
+
+.scutcheon {
+    display:      block;
+    margin-left:  auto;
+    margin-right: auto;
+    width:        200px;
+}
+
+
+/* ==== BOSS/FOTO STYLES ==== */
+
+
+#boss {
+    float:         right;
+    max-width:     30%;
+    border-radius: 10px;
+    box-shadow:    5px 5px 3px 0 black;
+}
+
+
+/* ==== BOX / CLUB STORY STYLES ==== */
+
+
+#box {
+    position: relative;
+    left:     0%;
+    margin:   1.25rem;
+}
+#box ul {
+    list-style-type: none;
+    font-size:       1.15rem;
+}
+ul, li {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+dl {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:    1.35rem;
+    margin:       1.15rem;
+}
+
+
+/* ==== FOTO GALLERY STYLES ==== */
+
+
+.fotos {
+    height:  220px;
+    width:   190px;
+    padding: 0.6rem;
+    filter:  grayscale(95%);
+}
+#team {
+    height:  220px;
+    width:   260px;
+    padding: .6rem;
+}
+#foto {
+    height:  180px;
+    width:   270px;
+    padding: .6rem;
+}
+#fans {
+    width: 75%;
+}
+#fans:hover {
+    box-shadow: 5px 6px 3px 0 black;
+    transform:  scale(1.1);
+  }
+#fan {
+    width: 85%; 
+}
+#fan:hover {
+    box-shadow: 5px 6px 3px 0 black;
+    transform:  scale(1.1);
+}
+#arena {
+    width:     90%;
+    transform: skew(10deg);
+}
+#stadion {
+    width:     95%;
+    transform: skew(-10deg);
+}
+
+
+/* ==== FOOTER STYLES ==== */
+
+
+footer {
+    position:         relative;
+    left:             37%;
+    width:            25vw;
+    background-color: #000033;
+    border:           1px solid #ffffff;
+    color:            antiquewhite;
+    text-align:       center;
+    border-radius:    10px;
+  
+}
+
+footer p {
+    font-family:   'Open Sans Condensed', sans-serif;
+    color:         #ffcc00;
+    font-size:     .8rem;
+    margin:        5px;
+  
+}
