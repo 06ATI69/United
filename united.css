@@ -9,6 +9,7 @@
 body {
     background-color: #000066;
 }
+
 h1 {
     color:        red;
     text-align:   center;
@@ -86,18 +87,25 @@ header {
   text-decoration: none;
 }
 
+.container {
+  height: 80px;
+  width: 100%;
+  text-align: center;
+  padding: 2px;
+}
+
 .button {
   width:            8.9rem;
   font-size:        1.5rem;
   text-align:       center;
-  background-color: #000066;
   color:            #ffcc00;
   font-family:      'Dosis', sans-serif;
   margin:           10px;
 }
 a {
     text-decoration: none;
-}
+    margin: 1px;
+   }
 a:hover {
     transition:     color .15s ease-in-out;
     border-bottom:  3px solid red;
